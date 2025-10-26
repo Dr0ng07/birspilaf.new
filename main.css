@@ -61,3 +61,47 @@ header nav ul li a {
     color: white;
     
 }
+body div {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+.menubtn {
+    font-size: 20px;
+    cursor: pointer;
+    background: #660000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+.sideMenu {
+    height: 210px;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: #660000;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+.sideMenu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ddd;
+    display: block;
+    transition: 0.2s;
+}
+.sideMenu a:hover {
+    background-color: black;
+}
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}

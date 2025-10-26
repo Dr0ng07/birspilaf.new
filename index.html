@@ -6,6 +6,22 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <div id="sideMenu" class="sideMenu">
+        <button class="btn" onclick="openMenu()">Menu</button>
+            <span class="close-btn" onclick="closeMenu()">&times;</span>
+            <a href="main.html">Главная</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">О нас</a>
+            <a href="https://t.me/birsbeograd">телеграм</a>
+        </div>   
+        <script>
+            function openMenu(){
+                document.getElementById("sideMenu").style.width ="300px"
+            }
+            function closeMenu(){
+                document.getElementById("sideMenu").style.width ="0"
+            }
+        </script>
     <div class="wrapper">
        
         <header class="container">
@@ -27,9 +43,9 @@
             <div class="hero--info">
                 <h2>Birs Pilaf</h2>
                 <p>Лучший плов в Сербии</p>
-                <button class="btn">Menu</button>
+                <button class="btn" onclick="openMenu()">Menu</button>
             </div>
-        </div>    
+        
     
         
     </body>

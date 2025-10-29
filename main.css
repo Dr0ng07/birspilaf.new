@@ -105,3 +105,10 @@ body div {
     color: white;
     cursor: pointer;
 }
+.hero--info {
+    margin: 20px;
+    padding: 5;
+}
+.new { 
+    margin: 100;
+}

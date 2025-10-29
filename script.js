@@ -1,4 +1,4 @@
-fetch('/index.html')
+fetch('index.html')
 .then(r => r.text())
 .then(html =>{
     document.getElementById ('meni'). innerHTML = html;

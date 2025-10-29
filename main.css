@@ -112,3 +112,6 @@ body div {
 .new { 
     margin: 100;
 }
+iframe {
+    margin: 20;
+}

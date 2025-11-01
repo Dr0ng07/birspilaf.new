@@ -4,9 +4,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O nas</title>
     <link rel="stylesheet" href="main.css">
+    
 </head> 
+
 <body>
-<div id="meni"></div>
+     <div id="meni"></div>
+<div class="feedback">
+        <h2>Обратная связь</h2>
+    <form id="reviewForm">
+        <input type="text" name="name" placeholder="Your otziv" required><br/>
+        <textarea name="opimium" placeholder="slushyu" required></textarea><br/>
+        <button type="submit">отправить</button>
+     </form> 
+     <p id="status"></p>
+     </div>
     <script src="script.js" defer></script>
     <div class="new"> 
      <h1>Главная</h1>
@@ -21,5 +32,6 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         allowfullscreen>
      </iframe>
+     
 </body>
 </html>
